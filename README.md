@@ -1,4 +1,4 @@
-Code for GORKI et al (2023) "Pollen metabarcoding reveals the origin and multigenerational migratory pathway of an intercontinental-scale butterfly outbreak"
+R Code for GORKI et al (2023) "Pollen metabarcoding reveals the origin and multigenerational migratory pathway of an intercontinental-scale butterfly outbreak"
 
 This repository includes code used for:
 
