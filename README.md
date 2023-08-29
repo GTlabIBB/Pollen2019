@@ -3,7 +3,7 @@ R Code for GORKI et al (2023) "Pollen metabarcoding reveals the origin and multi
 This repository includes code used for:
 
 1) Calculating NDVI anomalies along a time-series
-2) Obtaining GBIF plant data and ecological niche modeling
+2) Obtaining GBIF plant data and modelling species distributions
 3) Classifying ITS2 reads from plant metabarcoding sequencing
 
 PIPELINE DIAGRAM
