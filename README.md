@@ -5,7 +5,7 @@ This repository includes code used for:
 1) Calculating NDVI anomalies along a time-series (anomalies_npphen.R)
 2) Classifying ITS2 reads from plant metabarcoding sequencing (sintax_pollen.sh)
 3) Obtaining GBIF plant occurrence data and filtering (Get_GBIF.r)
-4) Species distribution modelling of identified plants
+4) Species distribution modelling of identified plants (plant_SDM.r)
 
 PIPELINE DIAGRAM
 
