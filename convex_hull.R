@@ -1,5 +1,6 @@
-#-+-+-+-+-+-+-+ CONVEX HULL +-+-+-+-+-+-+-    #This script has to be set for looping
-
+#-+-+-+-+-+-+-+ CONVEX HULL +-+-+-+-+-+-+-    
+#This script has to be set for looping
+#It sets a distance variable convex hull
 
 #Load packacges
 library(SpatialGraph)
@@ -94,10 +95,6 @@ setwd("/Users/Onki/Desktop/multispecies_modelling5_mask")
   
   writeRaster(output, filename = paste0(names(output),".asc"),driver = "ASCII",overwrite=TRUE)
 
-  
-  
-  
-  
 
 #Make pdf to visualize hull performance
   pdf(paste0(names(output),".pdf"),width=15, height= 10)
