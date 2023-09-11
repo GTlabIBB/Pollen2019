@@ -1,10 +1,11 @@
-R Code for GORKI et al (2023) "Pollen metabarcoding reveals the origin and multigenerational migratory pathway of an intercontinental-scale butterfly outbreak"
+Code for GORKI et al (2023) "Pollen metabarcoding reveals the origin and multigenerational migratory pathway of an intercontinental-scale butterfly outbreak"
 
 This repository includes code used for:
 
 1) Calculating NDVI anomalies along a time-series
-2) Obtaining GBIF plant data and modelling species distributions
-3) Classifying ITS2 reads from plant metabarcoding sequencing
+2) Classifying ITS2 reads from plant metabarcoding sequencing (sintax_pollen.sh)
+3) Obtaining GBIF plant data and modelling species distributions
+4) Species distribution modelling of identified plants
 
 PIPELINE DIAGRAM
 
