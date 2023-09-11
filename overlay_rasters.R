@@ -52,21 +52,21 @@ writeRaster(present2, filename="SP1 PRESENT_sum", format="ascii")
 stack_absent <- stack(raster_plant1,raster_plant2,...)
 
 absent<-mean(stack_absent)
-pdf(file="SP1 ASBENT.pdf")
-plot(absent, main ="SP1 ASBENT")
-plot(absent, breaks = c(200, 300, 400, 500, 600, 700, 800, 900, 1000), col = my.palette, main ="SP1 ASBENT")
+pdf(file="SP1 ABSENT.pdf")
+plot(absent, main ="SP1 ABSENT")
+plot(absent, breaks = c(200, 300, 400, 500, 600, 700, 800, 900, 1000), col = my.palette, main ="SP1 ABSENT")
 
 absent <- calc(stack_absent, sum)
-plot(absent, main ="SP1 ASBENT")
+plot(absent, main ="SP1 ABSENT")
 rescale0to1(absent)->absent2
-plot(absent2, main ="SP1 ASBENT")
-plot(absent2, breaks = c(0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1), col = my.palette, main ="SP1 ASBENT")
+plot(absent2, main ="SP1 ABSENT")
+plot(absent2, breaks = c(0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1), col = my.palette, main ="SP1 ABSENT")
 
 dev.off()
 
 
-writeRaster(absent, filename="SP1 ASBENT_mean", format="ascii")
-writeRaster(absent2, filename="SP1 ASBENT_sum", format="ascii")
+writeRaster(absent, filename="SP1 ABSENT_mean", format="ascii")
+writeRaster(absent2, filename="SP1 ABSENT_sum", format="ascii")
 
 
 stack_all <- stack(raster_plant1,raster_plant2,...)
