@@ -6,6 +6,8 @@ This repository includes code used for:
 2) Classifying ITS2 reads from plant metabarcoding sequencing (sintax_pollen.sh)
 3) Obtaining GBIF plant occurrence data and filtering (Get_GBIF.r)
 4) Species distribution modelling of identified plants (plant_SDM.r)
+5) Creating convex hulls for plant distributions based on reported occurrences and model-based buffer zone (convex_hull.R)
+6) Overlay resulting rasters from models for a set of plants to build geolocated probability maps for each spatio-temporal group (overlay_rasters.R)
 
 PIPELINE DIAGRAM
 
